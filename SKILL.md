@@ -63,7 +63,7 @@ The seller provides (minimum viable input is items 1 and 2):
 | 3. Brand Assets (optional) | Brand voice, visual language, existing customer profiles | Seller |
 | 4. Same-brand ASINs (optional) | If the seller has other products already on Amazon, list them for cross-model substitution risk analysis | Seller |
 
-If the seller provides an xlsx template (`Cosle_PreLaunch_Input_Template`), parse it with openpyxl.
+If the seller provides an xlsx template (`PreLaunch_Input_Template`), parse it with openpyxl.
 If they provide info in chat, extract and organize it.
 
 ### Step 1 — Pull Competitor Data

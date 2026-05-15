@@ -7,7 +7,7 @@ The COSMO report uses a consistent dark-theme design system. This file defines t
 ## Core Design Principles
 
 - **Dark background** — #0a0b0d base, layered with #111318 and #181c24
-- **Red accent** — #e63946 (Cosle brand color), used for urgency and emphasis
+- **Red accent** — #e63946, used for urgency and emphasis
 - **Teal accent** — #2ec4b6 (positive / green signals)
 - **Typography** — DM Mono (data/code), Syne (headers), Noto Sans SC (body, supports Chinese)
 - **Card-based layout** — all data sections inside bordered cards with subtle backgrounds
@@ -57,7 +57,7 @@ Usage:
 <div style="background:linear-gradient(135deg,#0d1117,#1a0a12,#0d1117); border-bottom:1px solid #2a1520; padding:60px 40px 50px; position:relative; overflow:hidden;">
   <!-- Red radial glow: position:absolute, top:-60px, right:-60px, 340px circle -->
   <div style="display:inline-flex; align-items:center; gap:8px; background:rgba(230,57,70,0.12); border:1px solid rgba(230,57,70,0.3); border-radius:4px; padding:4px 12px; font-family:'DM Mono',monospace; font-size:11px; color:#e63946; letter-spacing:1.5px; text-transform:uppercase; margin-bottom:20px;">
-    🔬 Cosle × COSMO 诊断报告 v1.0
+    🔬 COSMO × Rufus 诊断报告 v1.0
   </div>
   <h1 style="font-family:'Syne',sans-serif; font-size:36px; font-weight:800;">
     [BRAND NAME]<br><span style="color:#e63946">Rufus × COSMO 优化报告</span>
@@ -223,7 +223,7 @@ Score ring color: red (#e63946) for <50, orange (#f4a261) for 50-65, teal (#2ec4
     <!-- Section 5: Ad Action Plan -->
     <!-- Section 6: Plain-language Seller Guide -->
     <!-- Section 7: Summary Table -->
-  <!-- FOOTER with Cosle attribution + COSMO paper citation -->
+  <!-- FOOTER with COSMO paper citation -->
 
 </body>
 </html>
@@ -235,10 +235,9 @@ Score ring color: red (#e63946) for <50, orange (#f4a261) for 50-65, teal (#2ec4
 
 ```html
 <div style="text-align:center; padding:40px; color:#7b8299; font-size:11px; border-top:1px solid #252c3a; margin-top:60px;">
-  <div>由 <strong>Cosle</strong>（香港科技大学 AI 创业团队）基于亚马逊 COSMO 算法论文生成</div>
+  <div>基于亚马逊 COSMO 算法论文生成</div>
   <div style="margin-top:6px">数据来源：[Brand] SP Prompts Report · 分析日期：[DATE]</div>
   <div style="margin-top:6px">Yu et al. (2024). COSMO: A Large-Scale E-commerce Common Sense Knowledge Generation and Serving System at Amazon. <em>SIGMOD-Companion '24</em></div>
-  <div style="margin-top:10px">📧 <a href="mailto:zouak@connect.ust.hk" style="color:#e63946; text-decoration:none;">zouak@connect.ust.hk</a></div>
 </div>
 ```
 
